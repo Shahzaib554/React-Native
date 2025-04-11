@@ -6,6 +6,7 @@ const App = () => {
     <View>
       <Text style={{fontSize: 30}}>React Native App Discription!</Text>
       <Text style={{fontSize: 25}}>I Learning React Native!</Text>
+      <Text>Uploaded On GitHub</Text>
       <Button title="Press Here"/>
     </View>
   );
