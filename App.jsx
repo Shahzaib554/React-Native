@@ -6,16 +6,18 @@ import JSX from './src/components/JSX';
 import UseStateHook from './src/components/UseStateHook';
 import Pros from './src/components/pros'
 import InputText from './src/components/InputText';
+import Styling from './src/components/Styling';
 
 const queryClient = new QueryClient();
 
 const App = () => {
   return (
-  <View>
+  <View style= {{backgroundColor: 'white', flex: 1}}>
     {/* <OnPress/> */}
     {/* <UseStateHook/> */}
     {/* <Pros/> */}
-    <InputText/>
+    {/* <InputText/> */}
+    <Styling/>
   </View>
   );
 };
