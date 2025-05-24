@@ -5,6 +5,7 @@ import OnPress from './src/components/OnPress';
 import JSX from './src/components/JSX';
 import UseStateHook from './src/components/UseStateHook';
 import Pros from './src/components/pros'
+import InputText from './src/components/InputText';
 
 const queryClient = new QueryClient();
 
@@ -13,7 +14,8 @@ const App = () => {
   <View>
     {/* <OnPress/> */}
     {/* <UseStateHook/> */}
-    <Pros/>
+    {/* <Pros/> */}
+    <InputText/>
   </View>
   );
 };
