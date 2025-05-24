@@ -25,6 +25,8 @@ const Styling = () => {
       {/* Style Styling */}
 
       <Text style={styles.text}>IN Styling</Text>
+
+      <Text style={[styles.text, style.text, {backgroundColor: 'red'}]}>Mix Styling</Text>
     </View>
   );
 };
