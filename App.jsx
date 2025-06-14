@@ -12,14 +12,16 @@ const queryClient = new QueryClient();
 
 const App = () => {
   return (
-  <View style= {{backgroundColor: 'white', flex: 1}}>
-    {/* <OnPress/> */}
-    {/* <UseStateHook/> */}
-    {/* <Pros/> */}
-    {/* <InputText/> */}
-    <Styling/>
-  </View>
-  );
+    <QueryClientProvider client={queryClient}>
+      <View style={{ backgroundColor: 'white', flex: 1 }}>
+        {/* <OnPress /> */}
+        {/* <UseStateHook /> */}
+        {/* <Pros /> */}
+        {/* <InputText /> */}
+        <Styling />
+      </View>
+    </QueryClientProvider>
+  )
 };
 
 export default App;
