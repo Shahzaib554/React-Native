@@ -8,6 +8,7 @@ import Pros from './src/components/pros'
 import InputText from './src/components/InputText';
 import Styling from './src/components/Styling';
 import FlatListScreen from './src/components/FlatListScreen';
+import SectionList from './src/components/SectionList';
 
 
 const queryClient = new QueryClient();
@@ -21,7 +22,8 @@ const App = () => {
         {/* <Pros /> */}
         {/* <InputText /> */}
         {/* <Styling /> */}
-        <FlatListScreen/>
+        {/* <FlatListScreen/> */}
+        <SectionList/>
       </View>
     </QueryClientProvider>
   )
