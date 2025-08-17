@@ -1,5 +1,4 @@
 import React from 'react';
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import {SafeAreaView, Text, View } from 'react-native';
 // import OnPress from './src/components/OnPress';
 // import JSX from './src/components/JSX';
@@ -9,14 +8,13 @@ import {SafeAreaView, Text, View } from 'react-native';
 // import Styling from './src/components/Styling';
 // import FlatListScreen from './src/components/FlatListScreen';
 // import SectionList from './src/components/SectionList';
-import LoginForm from './src/components/LoginForm';
+// import LoginForm from './src/components/LoginForm';
+import ContactListScreen from './src/screens/Contact/ContactListScreen';
 
 
-const queryClient = new QueryClient();
 
 const App = () => {
   return (
-    <QueryClientProvider client={queryClient}>
       <View style={{ backgroundColor: 'white', flex: 1 }}>
         {/* <OnPress /> */}
         {/* <UseStateHook /> */}
@@ -25,9 +23,9 @@ const App = () => {
         {/* <Styling /> */}
         {/* <FlatListScreen/> */}
         {/* <SectionList/> */}
-        <LoginForm/>
+        {/* <LoginForm/> */}
+        <ContactListScreen/>
       </View>
-    </QueryClientProvider>
   )
 };
 
