@@ -20,7 +20,7 @@ const ContactListScreen = () => {
         item.id;
       }}
       ListHeaderComponent={
-        <Text style={styles.handing}>Contact</Text>
+        <Text style={styles.handing}>Contact Main</Text>
       }
       contentContainerStyle={styles.list}
     />
