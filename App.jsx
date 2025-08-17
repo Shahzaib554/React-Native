@@ -1,14 +1,15 @@
 import React from 'react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import {SafeAreaView, Text, View } from 'react-native';
-import OnPress from './src/components/OnPress';
-import JSX from './src/components/JSX';
-import UseStateHook from './src/components/UseStateHook';
-import Pros from './src/components/pros'
-import InputText from './src/components/InputText';
-import Styling from './src/components/Styling';
-import FlatListScreen from './src/components/FlatListScreen';
-import SectionList from './src/components/SectionList';
+// import OnPress from './src/components/OnPress';
+// import JSX from './src/components/JSX';
+// import UseStateHook from './src/components/UseStateHook';
+// import Pros from './src/components/pros'
+// import InputText from './src/components/InputText';
+// import Styling from './src/components/Styling';
+// import FlatListScreen from './src/components/FlatListScreen';
+// import SectionList from './src/components/SectionList';
+import LoginForm from './src/components/LoginForm';
 
 
 const queryClient = new QueryClient();
@@ -23,7 +24,8 @@ const App = () => {
         {/* <InputText /> */}
         {/* <Styling /> */}
         {/* <FlatListScreen/> */}
-        <SectionList/>
+        {/* <SectionList/> */}
+        <LoginForm/>
       </View>
     </QueryClientProvider>
   )
