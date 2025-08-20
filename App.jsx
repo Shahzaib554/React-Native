@@ -10,6 +10,7 @@ import {SafeAreaView, Text, View } from 'react-native';
 // import SectionList from './src/components/SectionList';
 // import LoginForm from './src/components/LoginForm';
 import ContactListScreen from './src/screens/Contact/ContactListScreen';
+import Gride from './src/components/Gride';
 
 
 
@@ -24,7 +25,8 @@ const App = () => {
         {/* <FlatListScreen/> */}
         {/* <SectionList/> */}
         {/* <LoginForm/> */}
-        <ContactListScreen/>
+        {/* <ContactListScreen/> */}
+        <Gride/>
       </View>
   )
 };
